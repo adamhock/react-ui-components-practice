@@ -1,5 +1,16 @@
+/* index.css or App.css */
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #1e1e1e; /* dark grey */
+  color: #f0f0f0;            /* optional: light text for contrast */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 .App {
   text-align: center;
+  background-color: #121212;
 }
 
 .App-logo {

@@ -1,0 +1,33 @@
+.tab-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 50px;
+}
+
+.tab{
+  display: flex;
+  align-items: center;
+  padding-right: 10px;
+  border-bottom: 2px solid gray;
+}
+.tab-label {
+  padding: 10px 20px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.tab.active {
+  border-bottom: 2px solid blue;
+}
+
+.close-button {
+  cursor: pointer;
+  margin-left: auto;
+}
+
+.tab-content {
+  padding: '20px';
+  border: '1px solid gray';
+}
